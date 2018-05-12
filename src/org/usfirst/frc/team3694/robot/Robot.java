@@ -11,7 +11,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Robot extends IterativeRobot {
-	//SmartDashboard stuffs
+	//SmartDashboard stuff
 	private static final String crossLineEncoder = "crossLineEncoder";
 	private static final String crossLineTimer = "crossLineTimer";
 	private String m_autoSelected;
