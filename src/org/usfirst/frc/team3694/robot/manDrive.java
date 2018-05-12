@@ -6,8 +6,7 @@ import edu.wpi.first.wpilibj.Talon;
 public class manDrive {
 	public static Spark topLeft = new Spark(PortMap.topLeft);
 	public static Spark topRight = new Spark(PortMap.topRight);
-	public static Talon Elevator
-	= new Talon(PortMap.Elevator);
+	public static Talon Elevator = new Talon(PortMap.Elevator);
 	
 	public static void drive () {
 		while (OI.forward.get() == true) {
